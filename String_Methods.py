@@ -40,6 +40,7 @@ print(b.isalnum()) # checks if every element is either number or alphabet or not
 print(b.join(a)) # joins 2 strings together in a peculiar way
 # if 'a' is 1 character string, a in first joined with b
 # if 'a' is more than 1 character string, each character of a will join b one by one
+# btw, 'b' can be list, tuple
 d= "1"
 print(d.zfill(3)) # attaches 0 in left of a fully numberic string (og is unchanged)
 # total length of the new string is 3 so accordingly add 0
