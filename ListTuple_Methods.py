@@ -69,3 +69,7 @@ print(sorted(f, reverse= True))
 # tuple can have list, dict, set as items
 # tuple, though immutable, can have mutable items 
 # e.g. if there is a list in tuple, the list can be updated
+for i, j in enumerate(b):
+    # The enumerate function returns a tuple for each element in the list
+    print("=>{} and =>{}".format(i, j))
+    # i will have index and j will have items of list
